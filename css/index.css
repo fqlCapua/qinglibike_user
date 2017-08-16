@@ -1,0 +1,379 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Microsoft Yahei';
+overflow-y: scroll;
+}
+
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0px;
+}
+.nav{
+	width: 100%;
+	min-width: 1200px;
+	height: 120px;
+	position: fixed;
+	border-bottom: 2px solid #fff100;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	/*background: url(images/beijing_03.jpg) center;
+	background-size: 100% 100%; */
+	background: rgba(25,25,25,0.6);
+}
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .nav{
+    background-color:#191919;
+    filter:Alpha(opacity=60);
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+}
+.nav .nav-box{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.nav .nav-box .logo{
+	width: 250px;
+	height: 64px;
+	margin-left: 22px;
+	margin-top: 28px;
+	float: left;
+}
+.nav .nav-box .logo img{
+	width: 100%;
+	height: 100%;
+}
+.nav .nav-box .right{
+	width: 800px;
+	float: right;
+}
+.nav .nav-box .right ul{
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+}
+.nav .nav-box .right ul li{
+	float: left;
+	width: 20%;
+	height: 100%;
+	cursor: pointer;
+}
+.nav .nav-box .right ul li h2{
+	font-weight:normal;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.nav .nav-box .right ul li img{
+	width: 13px;
+	height: 11px;
+	margin-left: 70px;
+	margin-top: 6px;
+	display: none;
+	z-index: 9999;
+}
+.nav .nav-box .right ul li img.active{
+	display: block;
+}
+.right a{
+	display: block;
+	height: 64px;
+	border: 0;
+}
+.click a{
+	border: 0;
+}
+.banner{
+	
+}
+.banner .click{
+	background:url("../images/step1/bj1.png") center center;
+	background-size:100% 100%;
+	background-attachment: scroll;
+	width:100%;
+	height:100vh;
+	margin:0 auto;
+	position: relative;
+	
+}
+.banner .click>#enjoy{
+	text-align: center;
+	 width:33%;
+	 margin:0 auto;
+     height:60px;
+	cursor: pointer;
+	font-size:2.3em;
+	color: #fff;
+	background-color:#D49885 ;
+    line-height:60px;
+	letter-spacing: 2px;
+	/*border-radius: 6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;*/
+}
+
+.step_title1{
+	text-align: center;
+	height:400px;
+	line-height:520px;
+	width:50%;
+	margin: 0 auto;
+	font-size:4.7em;
+}
+.step_title1 a{
+	padding-bottom: 5px;
+	
+	border-bottom:3px solid #E4E4E2;
+}
+.banner .click>div a{
+	color: #fff;
+}
+.banner .click>div img{
+	position: absolute;
+	left: 424px;
+	top: 15px;
+}
+.section2 .phone{
+	border: 1px solid red;
+	height: 100vh;
+}
+.part{
+	background-color: #ebebeb;
+	min-width: 1200px;
+	width: 100%;
+}
+.part .introduce{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.box{
+	width: 100%;
+	height: 644px;
+	position: absolute;
+	left: 0;
+	top: 20%;
+}
+.intro-top{
+	overflow: hidden;
+	width: 1104px;
+	margin: 0 auto;
+}
+.intro-top img,.intro-top h2{
+	float: left;
+}
+.intro-top img{
+	width: 1104px;
+	height: 28px;
+	background-size: 100% 100%;
+}
+.intro-top h2{
+	font-weight:normal;
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	color: #4d4d4d;
+}
+.intro-news{
+	width: 100%;
+	margin-top: 6%;
+	overflow: hidden;
+}
+.intro-news dl{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.intro-news dl img{
+	margin-left: 47px;
+	width: 205px;
+	height: 208px;
+	background-size: 100% 100%;
+}
+.intro-news dl dd.strong{
+	font-weight: 900;
+	font-size: 18px;
+	margin: 46px auto 20px;
+}
+.intro-news dl dd{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.download{
+	background-color: #ff8400;
+}
+.download .down{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+
+	overflow: hidden;
+	position: relative;
+}
+.downbox{
+	width: 100%;
+	height: 538px;
+	position: absolute;
+	top: 20%;
+}
+.condition{
+	width: 1122px;
+	height: 338px;
+	margin: 8% auto 0;
+	overflow: hidden;
+	padding-left: 78px;
+}
+.condition>div{
+	width: 238px;
+	height: 326px;
+	float: left;
+	margin-right: 30px;
+	border: 2px solid #82bb00;
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius:0 0 10px 10px;
+	-webkit-border-radius:0 0 10px 10px;
+	box-shadow: 0 4px 7px #e2e2e2;
+	-moz-box-shadow:0 4px 7px #e2e2e2;
+	-webkit-box-shadow:0 4px 7px #e2e2e2;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.condition .bounceInUp{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.condition .bg1{
+	animation-delay: 0.3s;
+}
+.condition .bg2{
+	animation-delay: 0.6s;
+}
+.condition .bg3{
+	animation-delay: 0.9s;
+}
+.condition>div h2{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	height: 116px;
+	background-color: #82bb00;
+	font-size: 22px;
+	line-height: 116px;
+}
+.condition>div p{
+	line-height: 40px;
+	font-size: 14px;
+	width: 188px;
+	margin: 0 auto;
+}
+.about{
+	background-color: #ebebeb;
+	position: relative;
+}
+.about .about-info{
+	overflow: hidden;
+	width: 89%;
+	padding-left: 11%;
+	margin-top: 1%;
+	margin-bottom: 10px
+}
+.about .about-info>div{
+	float: left;
+}
+.about .about-info img{
+	width: 300px;
+	height: 300px;
+	display: none;
+}
+@media screen and (max-width: 1400px){
+	.about .about-info img{
+		  width: 320px;
+   		 height: 312px;
+		display: none;
+	}
+	/* ========== */
+	/* = 第一部分 = */
+	/* ========== */
+	.banner{
+		border: 2px solid red;
+		
+	}
+ .step_title1{
+ 	font-size:24px;
+ 	overflow: hidden;
+	line-height:300px;
+	height:200px;
+	width:75%;
+	letter-spacing:0;
+}
+.banner .click>#enjoy{
+	text-align: center;
+	width:73%;
+	margin:0 auto;
+    height:60px;
+	cursor: pointer;
+	font-size:1.2em;
+	color:#fff;
+	letter-spacing: 0;
+	background-color:#D49885 ;
+    line-height:60px;
+	
+}
+
+}
+.about .about-info .info-word{
+	width: 88%;
+	font-size: 16px;
+	line-height: 46px;
+}
+.about .about-info .info-word .word-top{
+	margin-bottom: 26px;
+}
+
+.foot{
+	width: 100%;
+	position: absolute;
+	left: 0;
+    text-align: center;
+}
+.footer{
+	width: 60%;
+    text-align: left;
+    margin: 2px auto 0;
+}
+.footer span{
+	margin: 0 9px;
+	line-height: 20px;
+	font-size: 14px;
+}
+#erweimabox{
+	width: 160px;
+	height: 160px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+#erweima{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background: url("erweima-1.jpg")/*tpa=http://www.coolqi.com/kuqi/erweima.jpg*/ no-repeat center;
+	-moz-background-size:150px 150px;
+	-webkit-background-size:150px 150px;
+	-o-background-size:150px 150px;
+	background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/kuqi/kuqi/erweima.jpg',sizingMethod='scale');
+}

@@ -1,0 +1,381 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navBox {
+	width: 100%;
+	height: 110px;
+	background: #252525;
+}
+
+.nav {
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.nav img{
+	margin-top: 20px;
+	float: left;
+}
+.nav a{
+	display: block;
+	float: right;
+}
+#goBack {
+	float: right;
+	/*margin-top: 40px;*/
+	cursor: pointer;
+}
+
+.banner {
+	width: 100%;
+	min-width: 1200px;
+	background: url("../images/banner.png")/*tpa=http://www.coolqi.com/february/img/banner.png*/ no-repeat center center;
+	height: 607px;
+	position: relative;
+}
+
+.banner .invet {
+	width: 1200px;
+	height: 607px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.stepOne {
+	width: 100%;
+	min-width: 1200px;
+	background: url("../images/stepOne.png")/*tpa=http://www.coolqi.com/february/img/stepOne.png*/ no-repeat top center;
+	position: relative;
+	overflow: hidden;
+}
+
+.stepOne .invet {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.inputBox {
+	width: 780px;
+	margin:0 auto 60px;
+	padding-top: 570px;
+}
+
+.inputBox input {
+	width: 750px;
+	border: 2px solid #000000;
+	margin-bottom: 25px;
+	padding:25px 20px;
+	font-size: 24px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	outline: none;
+}
+
+.inputBox p {
+	color: #f00;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	display: none;
+	clear: both;
+}
+
+.inputBox input#captcha {
+	width: 46%;
+	float: left;
+}
+
+.inputBox img {
+	width: 46%;
+	height: 92px;
+	float: left;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	text-align: center;
+	line-height: 80px;
+	color: #666;
+	font-size: 24px;
+}
+
+.inputBox button {
+	width: 580px;
+	height: 100px;
+	background: #95cf2a;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	font-size: 30px;
+	color: #fff;
+	border: none;
+	outline: none;
+	margin-left: 90px;
+	cursor: pointer;
+}
+
+.howMuch {
+	width: 278px;
+	height: 75px;
+	position: absolute;
+	top:330px;
+	left: 453px;
+	font-size: 34px;
+	text-align: center;
+	line-height: 75px;
+	color: #26bf93;
+}
+
+.stepTwo {
+	width: 100%;
+	min-width: 1200px;
+	background: url("../images/stepTwo.png")/*tpa=http://www.coolqi.com/february/img/stepTwo.png*/ no-repeat center center;
+	height:615px;
+	position: relative;
+	overflow: hidden;
+}
+
+.stepTwo .invet {
+	width: 1200px;
+	height:615px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.stepThree {
+	width: 100%;
+	min-width: 1200px;
+	background: url("../images/stepThree.png")/*tpa=http://www.coolqi.com/february/img/stepThree.png*/ no-repeat center center;
+	height: 668px;
+	position: relative;
+	overflow: hidden;
+}
+
+.stepThree .invet {
+	width: 1200px;
+	height:668px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+
+/*-----------------------------动画------------------------------------*/
+
+.stepThree .invet div:hover {
+	/*// transform: scale(1.2);*/
+	transform: rotate(360deg) scale(1.5);
+	-webkit-transform: rotate(360deg) scale(1.5);
+	-moz-transform: rotate(360deg) scale(1.5);
+	-o-transform: rotate(360deg) scale(1.5);
+	-ms-transform: rotate(360deg) scale(1.5);
+}
+
+.stepThree .invet div {
+	width: 282px;
+	height: 282px;
+	background: url("../images/threeBg.png")/*tpa=http://www.coolqi.com/february/img/threeBg.png*/ no-repeat center center;
+	position: absolute;
+	top: 200px;
+	text-align: center;
+	line-height: 282px;
+	color: #fff;
+	font-size: 28px;
+	transition: All 0.8s ease-in-out;
+	-webkit-transition: All 0.8s ease-in-out;
+	-moz-transition: All 0.8s ease-in-out;
+	-o-transition: All 0.8s ease-in-out;
+}
+
+.divTwo {
+	left: 300px;
+}
+
+.divThree {
+	left: 600px;
+}
+
+.divFour {
+	left: 900px;
+}
+
+.stepFour {
+	width: 100%;
+	min-width: 1200px;
+	background: url("../images/stepFour.png")/*tpa=http://www.coolqi.com/february/img/stepFour.png*/ no-repeat center center;
+	height: 682px;
+	position: relative;
+	overflow: hidden;
+}
+
+.stepFour .invet {
+	width: 1200px;
+	height:682px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.stepFour .invet div:hover {
+	/*// transform: scale(1.2);*/
+	transform: rotate(360deg) scale(1.3);
+	-webkit-transform: rotate(360deg) scale(1.3);
+	-moz-transform: rotate(360deg) scale(1.3);
+	-o-transform: rotate(360deg) scale(1.3);
+	-ms-transform: rotate(360deg) scale(1.3);
+}
+
+.sureOne {
+	width: 206px;
+	height: 231px;
+	background: url("../images/sure.png")/*tpa=http://www.coolqi.com/february/img/sure.png*/ no-repeat center center;
+	position: absolute;
+	top: 120px;
+	left: 150px;
+	text-align: center;
+	line-height: 231px;
+	color: #fff;
+	font-size: 28px;
+	transition: All 0.8s ease-in-out;
+	-webkit-transition: All 0.8s ease-in-out;
+	-moz-transition: All 0.8s ease-in-out;
+	-o-transition: All 0.8s ease-in-out;
+}
+
+.sureTwo {
+	width: 206px;
+	height: 237px;
+	background: url("../images/sureTwo.png")/*tpa=http://www.coolqi.com/february/img/sureTwo.png*/ no-repeat center center;
+	position: absolute;
+	top: 400px;
+	left: 150px;
+	text-align: center;
+	line-height: 237px;
+	color: #fff;
+	font-size: 28px;
+	transition: All 0.8s ease-in-out;
+	-webkit-transition: All 0.8s ease-in-out;
+	-moz-transition: All 0.8s ease-in-out;
+	-o-transition: All 0.8s ease-in-out;
+}
+
+.sureThree {
+	width:240px;
+	height:278px;
+	background: url("../images/sureThree.png")/*tpa=http://www.coolqi.com/february/img/sureThree.png*/ no-repeat center center;
+	position: absolute;
+	top: 200px;
+	left: 460px;
+	text-align: center;
+	line-height:278px;
+	color: #fff;
+	font-size: 28px;
+	transition: All 0.8s ease-in-out;
+	-webkit-transition: All 0.8s ease-in-out;
+	-moz-transition: All 0.8s ease-in-out;
+	-o-transition: All 0.8s ease-in-out;
+}
+
+.sureFour {
+	width: 209px;
+	height: 231px;
+	background: url("../images/sureFour.png")/*tpa=http://www.coolqi.com/february/img/sureFour.png*/ no-repeat center center;
+	position: absolute;
+	top: 120px;
+	left: 815px;
+	text-align: center;
+	line-height: 231px;
+	color: #fff;
+	font-size: 28px;
+	transition: All 0.8s ease-in-out;
+	-webkit-transition: All 0.8s ease-in-out;
+	-moz-transition: All 0.8s ease-in-out;
+	-o-transition: All 0.8s ease-in-out;
+}
+
+.sureFive {
+	width: 209px;
+	height: 237px;
+	background: url("../images/sureFive.png")/*tpa=http://www.coolqi.com/february/img/sureFive.png*/ no-repeat center center;
+	position: absolute;
+	top: 400px;
+	left: 815px;
+	text-align: center;
+	line-height: 231px;
+	color: #fff;
+	font-size: 28px;
+	transition: All 0.8s ease-in-out;
+	-webkit-transition: All 0.8s ease-in-out;
+	-moz-transition: All 0.8s ease-in-out;
+	-o-transition: All 0.8s ease-in-out;
+}
+
+.footer {
+	width: 100%;
+	min-width: 1200px;
+	background: url("../images/footer.png")/*tpa=http://www.coolqi.com/february/img/footer.png*/ no-repeat center center;
+	height:785px;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer .invet {
+	width: 1200px;
+	height:785px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.footer .invet h1 {
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	padding-top: 48px;
+	font-family: "微软雅黑";
+}
+
+.footer .invet p {
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+
+.footer .invet p.cur {
+	margin-top: 670px;
+}
+
+.footer .invet p.active {
+	letter-spacing: .7px;
+}
+
+select {
+	width: 46%;
+	border: 2px solid #000000;
+	margin-bottom: 25px;
+	padding: 32px 20px;
+	font-size: 24px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.margin_left {
+	margin-left: 4%;
+}

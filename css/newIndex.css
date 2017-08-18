@@ -1,0 +1,121 @@
+
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .nav{
+    background-color:#191919;
+    filter:Alpha(opacity=60);
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+   
+    
+  }
+}
+
+	/* ========== */
+	/* = 第一部分 = */
+	/* ========== */
+	
+ .step_title1{
+ 	font-size:24px;
+ 	overflow: hidden;
+	line-height:300px;
+	height:200px;
+	width:75%;
+	letter-spacing:0;
+}
+.banner .click>#enjoy{
+	text-align: center;
+	width:73%;
+	margin:0 auto;
+    height:60px;
+	cursor: pointer;
+	font-size:1.2em;
+	color:#fff;
+	letter-spacing: 0;
+	background-color:#D49885 ;
+    line-height:60px;
+	
+}
+
+}
+.about .about-info .info-word{
+	width: 88%;
+	font-size: 16px;
+	line-height: 46px;
+}
+.about .about-info .info-word .word-top{
+	margin-bottom: 26px;
+}
+
+.foot{
+	width: 100%;
+	position: absolute;
+	left: 0;
+    text-align: center;
+}
+.footer{
+	width: 60%;
+    text-align: left;
+    margin: 2px auto 0;
+}
+.footer span{
+	margin: 0 9px;
+	line-height: 20px;
+	font-size: 14px;
+}
+#erweimabox{
+	width: 160px;
+	height: 160px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+#erweima{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background: url("erweima-1.jpg")/*tpa=http://www.coolqi.com/kuqi/erweima.jpg*/ no-repeat center;
+	-moz-background-size:150px 150px;
+	-webkit-background-size:150px 150px;
+	-o-background-size:150px 150px;
+	background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/kuqi/kuqi/erweima.jpg',sizingMethod='scale');
+}
+
+
+
+
+
+
+/* ========== */
+/* = 大背景 = */
+/* ========== */
+.title_big {
+	text-align:center;
+	
+}
+.title_big .title_big1{
+	width:440px;
+	margin:0 auto;
+	border-bottom:2px solid #FFFFFF;
+	line-height:120px;
+	font-size:5em;
+	letter-spacing:10px;
+}
+.title_big .title_big2{
+	font-size: 1.5em;
+}
+.title_big3{
+	line-height:80px;
+	font-size:2em;
+}
+.heading_number{
+	font-size:24px;
+	padding-right:10px;
+	text-align:center;
+	line-height:60px;
+	width: 80px;
+	height: 80px;
+	border:1px solid red;
+	background:url(../images/step2/head_number.png) no-repeat 0 0;
+	background-size:100%;
+}

@@ -8,7 +8,13 @@
     
   }
 }
-
+.nav{
+	background: none;
+}
+.navBox{
+	overflow: hidden;
+	
+}
 	/* ========== */
 	/* = 第一部分 = */
 	/* ========== */
@@ -111,11 +117,177 @@
 .heading_number{
 	font-size:24px;
 	padding-right:10px;
+  padding-right:25px\9;
 	text-align:center;
 	line-height:60px;
 	width: 80px;
 	height: 80px;
-	border:1px solid red;
+ display: inline-block;
 	background:url(../images/step2/head_number.png) no-repeat 0 0;
 	background-size:100%;
+}
+.heading-section{
+
+}
+
+.step_tit1{
+	 display: inline-block;
+	 width: 200px;
+		
+		font-size:24px;
+		line-height: 40px;
+		
+}
+.logo_box{
+	display:flex;
+}
+.page1_tit_t1{
+  text-align: center;
+	display:inline-block\9;
+}
+.page1_tit_t1 div{
+	padding:0 14px;
+  
+}
+.program{
+	
+  padding-top: 20px;
+	display:inline-block\9;
+}
+.logo_box{
+	width: 100%;
+}
+.container{
+	width: 60%\9;
+}
+.logo1{
+	clear: both;
+	display: inline-block\9;
+	width:25%;
+	font-size: 1.2em;
+
+}
+.page1_box{
+	width:70%\9;
+	margin:0 auto;
+}
+.page_box2{
+	list-style:square;
+	text-align:left;
+}
+.page1_tit_t2{
+	
+}
+.profits_box{
+	margin-top:50px;
+	text-align: left;
+	margin-left: 200px;
+}
+.profits_desc{
+
+	font-size: 14px;
+	color: #666666;
+	margin-left: 200px;
+	
+}
+.profit_desc2{
+	text-align: center;
+}
+.logo_box2 {
+	
+	width:60%;
+	margin:50px auto;
+	
+}
+.logo_box2 .logo1{
+	width: 20%;
+}
+.logo_box2 .page1_tit_t1{
+	width:160px;
+}
+.logo_set{
+	width: 100%;
+	padding-left: 180px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.logo_set .logo1{
+	margin:0;
+	padding: 0;
+	display:inline-block;
+	width:25%;
+	text-align: center;
+	font-size: 16px;
+}
+.logo_set .logo1 .program{
+	margin:0;
+	padding:0;
+}
+.pro_box2_desc{
+	padding-left: 180px;
+}
+.step_tit{
+	font-size: 24px;
+}
+.page2 .heading_number{
+	
+	font-size:24px;
+	padding-right:20px;
+  padding-left:15px\9;
+	text-align:center;
+	line-height:60px;
+	width: 80px;
+	height: 80px;
+ display: inline-block;
+	background:url(../images/step2/head_number2.png) no-repeat 0 0;
+	background-size:100%;
+}
+.page2{
+	
+	height:100px;
+	width: 100%;
+
+	
+} 
+ .page2  .heading-section div{
+ 	display: inline-block;
+ 		text-align: end;
+ 		line-height:60px;
+ 	 
+ }
+ 
+
+/*3*/
+.pro_box3_desc{
+	padding-left: 180px;
+}
+.page3 .heading_number{
+	
+	font-size:24px;
+	padding-right:30px;
+  padding-right:25px\9;
+	text-align:center;
+	line-height:60px;
+	width: 80px;
+	height: 80px;
+  display: inline-block;
+	background:url(../images/step2/head_number.png) no-repeat 0 0;
+	background-size:100%;
+}
+.page3{
+	
+	height:100px;
+	width:100%;
+	
+
+	
+} 
+ .page3  .heading-section div{
+ 	  display: inline-block;
+ 		text-align: end;
+ 		line-height:60px;
+ 	 
+ }
+ .logo_set2 .logo1{
+	width:33%;
 }
